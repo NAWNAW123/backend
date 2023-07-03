@@ -1,0 +1,13 @@
+package com.phoneShopping.phone;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class PhoneShoppingApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}
