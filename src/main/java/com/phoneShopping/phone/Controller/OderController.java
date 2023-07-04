@@ -10,7 +10,10 @@ import java.util.List;
 import java.util.Optional;
 
 @RequestMapping("/Order")
+
 public class OderController {
+
+
 
     @Autowired
     private OrderRepo orderRepo;
@@ -30,6 +33,11 @@ public class OderController {
     public Optional<Oder> getProduct(@PathVariable Long OdID) {
         return orderRepo.findById(OdID);
     }
+//    @PutMapping(value ="/update/{OdID}")
+//    public String updatedOder(@PathVariable Long  OdID,@RequestBody Oder oder) {
+//        Oder updatedOder=orderRepo.findAllById(OdID).get();
+//
+//    }
 
 //    @DeleteMapping(value )
 //    public String deleteOrder() {
